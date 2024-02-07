@@ -9,7 +9,9 @@ This project focuses on analyzing blood oxygenation level dependent (BOLD) respo
 ## Supplementary Materials and Code
 Alongside this project, the MATLAB code and a comprehensive PDF report are available. The MATLAB code encompasses the entire workflow of signal processing, from initial filtering to baseline correction and statistical analysis, providing a complete set of tools for conducting this study or applying the methodology to new datasets. The PDF report details the study's objectives, methodology, results, and discussions, offering in-depth insights into the analysis performed.
 
-## Dataset Citation
+Functions `sigasterisk.m` and `add_errorbar.m` were taken from [https://github.com/arsalanfiroozi/sigasterisk?tab=readme-ov-file#general-info](https://github.com/arsalanfiroozi/sigasterisk).
+
+## Dataset
 The dataset utilized in this study was sourced from the following publication:
 
 - Zhang, S., Zheng, Y., Hu, H., Yang, M., "Understanding Urban Dynamics from Massive Mobile Traffic Data," in IEEE Transactions on Big Data, vol. 3, no. 2, pp. 144-156, June 2017, doi: 10.1109/TBDATA.2016.2631141. Available at: [IEEE Xplore](https://ieeexplore.ieee.org/document/7742400)
